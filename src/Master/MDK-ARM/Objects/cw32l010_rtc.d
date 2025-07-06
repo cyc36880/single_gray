@@ -1,0 +1,9 @@
+.\objects\cw32l010_rtc.o: ..\Core\Src\cw32l010_rtc.c
+.\objects\cw32l010_rtc.o: ..\Core\Inc\cw32l010_rtc.h
+.\objects\cw32l010_rtc.o: ..\Core\Inc\base_types.h
+.\objects\cw32l010_rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\cw32l010_rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\objects\cw32l010_rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\objects\cw32l010_rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\cw32l010_rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\objects\cw32l010_rtc.o: ..\Core\Inc\cw32l010.h

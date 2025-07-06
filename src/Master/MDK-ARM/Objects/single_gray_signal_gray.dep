@@ -1,0 +1,614 @@
+Dependencies for Project 'single_gray', Target 'signal_gray': (DO NOT MODIFY !)
+CompilerVersion: ::::
+F (.\startup_cw32l010.s)(0x685A4681)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_cw32l010.lst --xref -o .\objects\startup_cw32l010.o --depend .\objects\startup_cw32l010.d)
+F (..\Core\Src\system_cw32l010.c)(0x685A4681)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\system_cw32l010.o --omf_browse .\objects\system_cw32l010.crf --depend .\objects\system_cw32l010.d)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (..\Core\Src\cw32l010_sysctrl.c)(0x68667498)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_sysctrl.o --omf_browse .\objects\cw32l010_sysctrl.crf --depend .\objects\cw32l010_sysctrl.d)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (..\Core\Src\cw32l010_gpio.c)(0x68666DE4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_gpio.o --omf_browse .\objects\cw32l010_gpio.crf --depend .\objects\cw32l010_gpio.d)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+F (..\Core\Src\cw32l010_flash.c)(0x6867B6AE)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_flash.o --omf_browse .\objects\cw32l010_flash.crf --depend .\objects\cw32l010_flash.d)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (..\Core\Src\cw32l010_systick.c)(0x68661D63)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_systick.o --omf_browse .\objects\cw32l010_systick.crf --depend .\objects\cw32l010_systick.d)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+F (..\Core\Src\cw32l010_uart.c)(0x685A4681)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_uart.o --omf_browse .\objects\cw32l010_uart.crf --depend .\objects\cw32l010_uart.d)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (..\Core\Src\cw32l010_atim.c)(0x68677BA6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_atim.o --omf_browse .\objects\cw32l010_atim.crf --depend .\objects\cw32l010_atim.d)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (..\Core\Src\cw32l010_gtim.c)(0x685A4681)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_gtim.o --omf_browse .\objects\cw32l010_gtim.crf --depend .\objects\cw32l010_gtim.d)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+F (..\Core\Src\cw32l010_adc.c)(0x685A4681)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_adc.o --omf_browse .\objects\cw32l010_adc.crf --depend .\objects\cw32l010_adc.d)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+F (..\Core\Src\cw32l010_i2c.c)(0x6867CAB2)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_i2c.o --omf_browse .\objects\cw32l010_i2c.crf --depend .\objects\cw32l010_i2c.d)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (..\Drivers\CW32L010_HAL_Driver\Src\cw32l010_hal_gpio.c)(0x68666DC4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\cw32l010_hal_gpio.o --omf_browse .\objects\cw32l010_hal_gpio.crf --depend .\objects\cw32l010_hal_gpio.d)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\User\Src\interrupts_cw32l010.c)(0x6867C512)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\interrupts_cw32l010.o --omf_browse .\objects\interrupts_cw32l010.crf --depend .\objects\interrupts_cw32l010.d)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+F (.\User\Src\main.c)(0x6868D04E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\User\Inc\gpio.h)(0x686671C8)
+I (.\User\Inc\uart.h)(0x68676A37)
+I (.\User\Inc\time.h)(0x68678D0D)
+I (.\User\Inc\adc.h)(0x6868C7AB)
+I (.\User\Inc\i2c.h)(0x6868E9BA)
+I (.\Control\Inc\control.h)(0x68678335)
+I (.\Control\Inc\sys_config_and_flash.h)(0x6868FCAD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (.\User\Src\gpio.c)(0x686888D1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\User\Inc\gpio.h)(0x686671C8)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\User\Src\uart.c)(0x6867B21F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\User\Inc\uart.h)(0x68676A37)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\User\Src\time.c)(0x68678D0B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\time.o --omf_browse .\objects\time.crf --depend .\objects\time.d)
+I (.\User\Inc\time.h)(0x68678D0D)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\User\Src\adc.c)(0x6869178B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (.\User\Inc\adc.h)(0x6868C7AB)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\User\Src\flash.c)(0x6869EA97)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (.\User\Inc\flash.h)(0x6867BCB0)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (.\User\Src\i2c.c)(0x6869EE5F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\User\Inc\i2c.h)(0x6868E9BA)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\Control\Inc\sys_config_and_flash.h)(0x6868FCAD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\Control\Inc\register.h)(0x6868D901)
+F (.\Control\Src\control.c)(0x6869EE0E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
+I (.\Control\Inc\control.h)(0x68678335)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\User\Inc\i2c.h)(0x6868E9BA)
+I (.\Control\Inc\light.h)(0x6868FA8D)
+I (.\Control\Inc\sys_config_and_flash.h)(0x6868FCAD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\Control\Inc\register.h)(0x6868D901)
+I (.\Control\Inc\gray.h)(0x6868E0AD)
+I (.\Control\Inc\binary.h)(0x6868D565)
+I (.\Control\Inc\color.h)(0x6869E795)
+I (.\Control\Inc\myMath.h)(0x6869DB1F)
+F (.\Control\Src\light.c)(0x68691792)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\light.o --omf_browse .\objects\light.crf --depend .\objects\light.d)
+I (.\Control\Inc\light.h)(0x6868FA8D)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\Control\Inc\myMath.h)(0x6869DB1F)
+F (.\Control\Src\myMath.c)(0x6868ED8D)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\mymath.o --omf_browse .\objects\mymath.crf --depend .\objects\mymath.d)
+I (.\Control\Inc\myMath.h)(0x6869DB1F)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\Control\Src\sys_config_and_flash.c)(0x6869EA4C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\sys_config_and_flash.o --omf_browse .\objects\sys_config_and_flash.crf --depend .\objects\sys_config_and_flash.d)
+I (.\Control\Inc\sys_config_and_flash.h)(0x6868FCAD)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\User\Inc\flash.h)(0x6867BCB0)
+I (.\Control\Inc\gray.h)(0x6868E0AD)
+I (.\Control\Inc\myMath.h)(0x6869DB1F)
+I (.\Control\Inc\color.h)(0x6869E795)
+F (.\Control\Src\binary.c)(0x6868E178)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\binary.o --omf_browse .\objects\binary.crf --depend .\objects\binary.d)
+I (.\Control\Inc\binary.h)(0x6868D565)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\Control\Inc\gray.h)(0x6868E0AD)
+F (.\Control\Src\gray.c)(0x6868ED18)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\gray.o --omf_browse .\objects\gray.crf --depend .\objects\gray.d)
+I (.\Control\Inc\gray.h)(0x6868E0AD)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\Control\Inc\sys_config_and_flash.h)(0x6868FCAD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\Control\Inc\light.h)(0x6868FA8D)
+I (.\Control\Inc\myMath.h)(0x6869DB1F)
+I (.\User\Inc\adc.h)(0x6868C7AB)
+F (.\Control\Src\register.c)(0x68690D74)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\register.o --omf_browse .\objects\register.crf --depend .\objects\register.d)
+I (.\Control\Inc\register.h)(0x6868D901)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+F (.\Control\Src\color2.c)(0x6869E764)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\color2.o --omf_browse .\objects\color2.crf --depend .\objects\color2.d)
+I (.\Control\Inc\color.h)(0x6869E795)
+I (.\User\Inc\main.h)(0x6868FA6A)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x68677065)
+I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x6868FA72)
+I (..\Core\Inc\cw32l010.h)(0x68677B9E)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Core\Inc\cw32l010_sysctrl.h)(0x68677083)
+I (..\Core\Inc\system_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\base_types.h)(0x685A4681)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\Core\Inc\cw32l010_systick.h)(0x6868FD24)
+I (.\User\Inc\interrupts_cw32l010.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_gpio.h)(0x686888F3)
+I (..\Core\Inc\cw32l010_uart.h)(0x68676839)
+I (..\Core\Inc\cw32l010_atim.h)(0x68677D49)
+I (..\Core\Inc\cw32l010_gtim.h)(0x68677533)
+I (..\Core\Inc\cw32l010_adc.h)(0x685A4681)
+I (..\Core\Inc\cw32l010_flash.h)(0x68679DD5)
+I (..\Core\Inc\cw32l010_i2c.h)(0x6867C954)
+I (.\Control\Inc\myMath.h)(0x6869DB1F)
+I (.\Control\Inc\light.h)(0x6868FA8D)
+I (.\User\Inc\adc.h)(0x6868C7AB)
+I (.\Control\Inc\sys_config_and_flash.h)(0x6868FCAD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
