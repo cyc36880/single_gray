@@ -3,15 +3,15 @@
         {
             "name": "signal_gray",
             "includePath": [
-                "d:\\Desktop\\microbit_cw32_gray\\Core\\Inc",
-                "d:\\Desktop\\microbit_cw32_gray\\MDK-ARM\\User\\Inc",
-                "d:\\Desktop\\microbit_cw32_gray\\Drivers\\CW32L010_HAL_Driver\\Inc",
-                "d:\\Desktop\\microbit_cw32_gray\\MDK-ARM\\Control\\Inc",
-                "d:\\Desktop\\microbit_cw32_gray\\MDK-ARM",
-                "d:\\Desktop\\microbit_cw32_gray\\Core\\Src",
-                "d:\\Desktop\\microbit_cw32_gray\\Drivers\\CW32L010_HAL_Driver\\Src",
-                "d:\\Desktop\\microbit_cw32_gray\\MDK-ARM\\User\\Src",
-                "d:\\Desktop\\microbit_cw32_gray\\MDK-ARM\\Control\\Src"
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Core\\Inc",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\User\\Inc",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Drivers\\CW32L010_HAL_Driver\\Inc",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\Control\\Inc",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Core\\Src",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Drivers\\CW32L010_HAL_Driver\\Src",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\User\\Src",
+                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\Control\\Src"
             ],
             "defines": [
                 "__alignof__(x)=",

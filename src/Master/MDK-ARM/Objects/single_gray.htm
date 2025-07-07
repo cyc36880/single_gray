@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\single_gray.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\single_gray.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Sun Jul 06 18:19:43 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Mon Jul 07 17:54:45 2025
 <BR><P>
 <H3>Maximum Stack Usage =        176 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -604,7 +604,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[54]"></a>Grayscale_Init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, gray.o(i.Grayscale_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = Grayscale_Init &rArr; get_sys_config_data &rArr; get_sys_conf_data
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = Grayscale_Init &rArr; get_sys_config_data &rArr; get_sys_config_info_data_size
 </UL>
 <BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data
 </UL>
@@ -801,7 +801,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[78]"></a>MAX_I2C_Init</STRONG> (Thumb, 134 bytes, Stack size 32 bytes, i2c.o(i.MAX_I2C_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = MAX_I2C_Init &rArr; get_sys_config_data &rArr; get_sys_conf_data
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = MAX_I2C_Init &rArr; get_sys_config_data &rArr; get_sys_config_info_data_size
 </UL>
 <BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2c_MspInit
@@ -816,7 +816,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[7a]"></a>MAX_I2C_addr_get_other</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, i2c.o(i.MAX_I2C_addr_get_other))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = MAX_I2C_addr_get_other &rArr; get_sys_config_data &rArr; get_sys_conf_data
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = MAX_I2C_addr_get_other &rArr; get_sys_config_data &rArr; get_sys_config_info_data_size
 </UL>
 <BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data
 </UL>
@@ -1072,7 +1072,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[97]"></a>color2_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, color2.o(i.color2_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = color2_init &rArr; get_sys_config_data &rArr; get_sys_conf_data
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = color2_init &rArr; get_sys_config_data &rArr; get_sys_config_info_data_size
 </UL>
 <BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data
 </UL>
@@ -1139,10 +1139,10 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[55]"></a>get_sys_config_data</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, sys_config_and_flash.o(i.get_sys_config_data))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = get_sys_config_data &rArr; get_sys_conf_data
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = get_sys_config_data &rArr; get_sys_config_info_data_size
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_conf_data
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_conf_data
 </UL>
 <BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;color2_init
 <LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Grayscale_Init
@@ -1162,13 +1162,13 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[a2]"></a>get_sys_config_info_handle</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, sys_config_and_flash.o(i.get_sys_config_info_handle))
-<BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data_offset
+<BR><BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_occupation_size
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data_offset
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_addr_offset
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_conf_data
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_sys_config_info
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_config_info_init
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_occupation_size
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
 </UL>
 
 <P><STRONG><a name="[a4]"></a>get_sys_config_info_occupation_size</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sys_config_and_flash.o(i.get_sys_config_info_occupation_size))
@@ -1204,7 +1204,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rgb2hsv
 </UL>
 
-<P><STRONG><a name="[1b]"></a>main</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[1b]"></a>main</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = main &rArr; MAX_UART2_Init &rArr; HAL_UART_Init &rArr; UART_Init &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_config_info_init
@@ -1267,11 +1267,11 @@ Global Symbols
 <P><STRONG><a name="[7c]"></a>set_sys_config_info</STRONG> (Thumb, 108 bytes, Stack size 32 bytes, sys_config_and_flash.o(i.set_sys_config_info))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = set_sys_config_info &rArr; get_sys_config_data_offset &rArr; get_sys_config_addr_offset &rArr; get_sys_config_info_occupation_size
 </UL>
-<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_data_to_flash
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_handle
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_data_to_flash
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data_offset
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_addr_offset
 <LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_handle
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MAX_I2C_addr_other_changle
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;update_flash_data
@@ -1301,7 +1301,9 @@ Global Symbols
 <P><STRONG><a name="[ac]"></a>sys_config_info_init</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, sys_config_and_flash.o(i.sys_config_info_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = sys_config_info_init &rArr; sys_config_version_verify &rArr; get_sys_config_data_offset &rArr; get_sys_config_addr_offset &rArr; get_sys_config_info_occupation_size
 </UL>
-<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_data_to_flash
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_handle
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_data_to_flash
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_config_version_verify
 <LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_data_from_flash
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data_offset
@@ -1309,8 +1311,6 @@ Global Symbols
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_conf_data
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flash_sync
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flash_init
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_handle
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1448,8 +1448,8 @@ Local Symbols
 <P><STRONG><a name="[a6]"></a>get_sys_config_data_offset</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, sys_config_and_flash.o(i.get_sys_config_data_offset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = get_sys_config_data_offset &rArr; get_sys_config_addr_offset &rArr; get_sys_config_info_occupation_size
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_addr_offset
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_handle
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_handle
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_addr_offset
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_config_version_verify
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_sys_config_info
@@ -1468,12 +1468,12 @@ Local Symbols
 <P><STRONG><a name="[b5]"></a>sys_config_version_verify</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, sys_config_and_flash.o(i.sys_config_version_verify))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = sys_config_version_verify &rArr; get_sys_config_data_offset &rArr; get_sys_config_addr_offset &rArr; get_sys_config_info_occupation_size
 </UL>
-<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_data_from_flash
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_data_from_flash
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_data_offset
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_conf_data
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_sys_config_info_data_size
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_config_info_init
 </UL>

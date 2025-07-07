@@ -11,7 +11,7 @@
 // #define def_FLASH_PAGECOUNT ((uint32_t)256) // 总页数
 // #define def_USERAPP_START (def_FLASH_BASE + def_FLASH_PAGESIZE * 20)
 // #define def_USERAPP_BOTTOM (def_FLASH_BASE + def_FLASH_PAGESIZE * (def_FLASH_PAGECOUNT - 2))
-#define FLASH_START_ADDR 0x2800
+
 // ----------------- XMODEM 控制码 -------------------
 #define XMODEM_NUL 0x00
 #define XMODEM_SOH 0x01

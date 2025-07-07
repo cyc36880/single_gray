@@ -28,4 +28,5 @@
 .\objects\main.o: .\User\Inc\uart.h
 .\objects\main.o: .\User\Inc\time.h
 .\objects\main.o: .\Control\Inc\control.h
+.\objects\main.o: .\IAP_xmodem\xmodem.h
 .\objects\main.o: .\Control\Inc\light.h

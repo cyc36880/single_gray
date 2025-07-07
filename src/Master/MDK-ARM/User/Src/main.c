@@ -12,6 +12,7 @@ static void SystemClock_Config(void);
 
 int main(void)
 {
+    __enable_irq();
     SystemClock_Config();
     sys_config_info_init(); // 从flash中读取配置信息
     MX_GPIO_Init();
