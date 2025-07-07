@@ -14,7 +14,6 @@ typedef struct
    int32_t minVal;
    int32_t MedianVal;
    float zoom;
-   int32_t offset;
 }Grayscale_Port;
 
 

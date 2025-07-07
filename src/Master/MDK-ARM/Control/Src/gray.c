@@ -6,7 +6,7 @@
 #include "adc.h"
 
 Grayscale_Port Grayscale_Port_param[1] = {
-    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, .offset=0},
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0},
 };
 
 static int32_t Grayscale[SENSORE_NUM] = {0};
@@ -54,6 +54,8 @@ void gary_study(void)
         SysTickDelay(1);
         for(uint8_t i = 0; i < SENSORE_NUM; i++)
         {
+            get_adc_val();
+            SysTickDelay(1);
             uint16_t adc_val = get_adc_val();
             if ( adc_val > Grayscale_Port_param[i].maxVal )
                 Grayscale_Port_param[i].maxVal = adc_val;
@@ -67,9 +69,8 @@ void gary_study(void)
     }
     for(uint8_t i = 0; i < SENSORE_NUM; i++)
     {
-        Grayscale_Port_param[i].zoom = 4095.0f / (Grayscale_Port_param[i].maxVal - Grayscale_Port_param[i].minVal); //计算缩放比例
+        Grayscale_Port_param[i].zoom = 4096.0f / (Grayscale_Port_param[i].maxVal - Grayscale_Port_param[i].minVal); //计算缩放比例
         Grayscale_Port_param[i].MedianVal = (Grayscale_Port_param[i].maxVal + Grayscale_Port_param[i].minVal) / 2; // 计算中值
-        Grayscale_Port_param[i].offset = Grayscale_Port_param[i].minVal;
     }
     update_Grayscale_flashdata(); //向flash写入数据
 }
@@ -86,7 +87,7 @@ void gary_identify(void)
     for(uint8_t i = 0; i < SENSORE_NUM; i++) 
     {
         Grayscale[i] +=  (Grayscale_Port_param[i].MedianVal - Grayscale[i])*2;//围绕中值反转
-        Grayscale[i] = (Grayscale[i] - Grayscale_Port_param[i].offset) * Grayscale_Port_param[i].zoom; //比例缩放
+        Grayscale[i] = (Grayscale[i] - Grayscale_Port_param[i].minVal) * Grayscale_Port_param[i].zoom; //比例缩放
     }
     
     for(uint8_t i = 0; i < SENSORE_NUM; i++) // 输出灰度值

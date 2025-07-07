@@ -136,7 +136,7 @@ void color2_identify(void)
             min_pos = i;
         }
     }
-    if (color2_diff.color_diff[min_pos].diff > 20 || (hsv.s < 15 && hsv.v < 15)) // 颜色差异过大
+    if (color2_diff.color_diff[min_pos].diff > 20) // 颜色差异过大
     {
         color2Val[0] = 0;
     }

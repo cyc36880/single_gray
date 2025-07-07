@@ -41,11 +41,11 @@
 
 static const char sys_verify_version[] = "0.0.1";
 // 验证密钥
-static const uint32_t sys_verify_key = 0x5E5A6A69;
+static const uint32_t sys_verify_key = 0x5E5A6A6A;
 
 static uint8_t i2c_slaveaddr_pos = 0;
 static Grayscale_Port Grayscale_Port_param[SENSORE_NUM] = {
-    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, .offset=0},
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
 };
 
 static color2_table_t color2_tab[COLOR_STUDY_NUM] = {0};
