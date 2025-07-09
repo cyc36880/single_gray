@@ -1,3 +1,11 @@
+/*
+ * @Author       : 蔡雅超 (ZIShen)
+ * @LastEditors  : ZIShen
+ * @Date         : 2025-07-07 17:10:09
+ * @LastEditTime : 2025-07-09 10:40:11
+ * @Description  : 
+ * Copyright (c) 2025 Author 蔡雅超 email: 2672632650@qq.com, All Rights Reserved.
+ */
 #include "color.h"
 #include "light.h"
 #include "myMath.h"
@@ -178,19 +186,19 @@ static lv_color_hsv_t rgb2hsv(void)
     uint8_t r, g, b;
 
     set_rgb_brightness(600, 0, 0);
-    SysTickDelay(1);
+    SysTickDelay(10);
     get_adc_val();
     SysTickDelay(1);
     r = VAL4096_2_255(get_adc_val());
 
     set_rgb_brightness(0, 600, 0);
-    SysTickDelay(1);
+    SysTickDelay(10);
     get_adc_val();
     SysTickDelay(1);
     g = VAL4096_2_255(get_adc_val());
 
     set_rgb_brightness(0, 0, 600);
-    SysTickDelay(1);
+    SysTickDelay(10);
     get_adc_val();
     SysTickDelay(1);
     b = VAL4096_2_255(get_adc_val());

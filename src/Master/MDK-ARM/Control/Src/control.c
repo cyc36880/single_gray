@@ -1,3 +1,11 @@
+/*
+ * @Author       : 蔡雅超 (ZIShen)
+ * @LastEditors  : ZIShen
+ * @Date         : 2025-07-07 17:10:09
+ * @LastEditTime : 2025-07-09 10:35:38
+ * @Description  : 
+ * Copyright (c) 2025 Author 蔡雅超 email: 2672632650@qq.com, All Rights Reserved.
+ */
 #include "control.h"
 #include "i2c.h"
 #include "light.h"

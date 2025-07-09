@@ -51,7 +51,7 @@ void gary_study(void)
     while ((GetTick() - tickstart) < wait) //
     {
         set_rgb_brightness(1000, 1000, 1000);
-        SysTickDelay(1);
+        SysTickDelay(10);
         for(uint8_t i = 0; i < SENSORE_NUM; i++)
         {
             get_adc_val();
