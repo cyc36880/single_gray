@@ -3,7 +3,6 @@
 
 
 int uXMODEM_Process(void);
-static void jump(uint32_t APPLICATION_ADDRESS);
 
 static void enter_light_flash(void)
 {

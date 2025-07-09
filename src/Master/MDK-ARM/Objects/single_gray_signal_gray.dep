@@ -170,7 +170,7 @@ I (..\Core\Inc\cw32l010_flash.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_i2c.h)(0x686B8EF1)
 F (.\User\Src\interrupts_cw32l010.c)(0x686B8EF1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\interrupts_cw32l010.o --omf_browse .\objects\interrupts_cw32l010.crf --depend .\objects\interrupts_cw32l010.d)
 I (.\User\Inc\interrupts_cw32l010.h)(0x686B8EF1)
-F (.\User\Src\main.c)(0x686B9352)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\Src\main.c)(0x686DFB4B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x686B8EF1)
@@ -231,7 +231,7 @@ I (..\Core\Inc\cw32l010_gtim.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_adc.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_flash.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_i2c.h)(0x686B8EF1)
-F (.\User\Src\uart.c)(0x686B8EF1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+F (.\User\Src\uart.c)(0x686DE2E6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (.\User\Inc\uart.h)(0x686B8EF1)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)
@@ -340,7 +340,7 @@ I (..\Core\Inc\cw32l010_adc.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_flash.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_i2c.h)(0x686B8EF1)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-F (.\User\Src\i2c.c)(0x686BAAAA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+F (.\User\Src\i2c.c)(0x686DE2F1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
 I (.\User\Inc\i2c.h)(0x686B8EF1)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)
@@ -369,8 +369,8 @@ I (..\Core\Inc\cw32l010_flash.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_i2c.h)(0x686B8EF1)
 I (.\Control\Inc\sys_config_and_flash.h)(0x686B8EF1)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (.\Control\Inc\register.h)(0x686B8EF1)
-F (.\Control\Src\control.c)(0x686DD0DF)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
+I (.\Control\Inc\register.h)(0x686DD88B)
+F (.\Control\Src\control.c)(0x686DDE94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
 I (.\Control\Inc\control.h)(0x686B8EF1)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)
@@ -401,7 +401,7 @@ I (.\User\Inc\i2c.h)(0x686B8EF1)
 I (.\Control\Inc\light.h)(0x686B8EF1)
 I (.\Control\Inc\sys_config_and_flash.h)(0x686B8EF1)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (.\Control\Inc\register.h)(0x686B8EF1)
+I (.\Control\Inc\register.h)(0x686DD88B)
 I (.\Control\Inc\gray.h)(0x686BAEA6)
 I (.\Control\Inc\binary.h)(0x686B8EF1)
 I (.\Control\Inc\color.h)(0x686B8EF1)
@@ -461,7 +461,7 @@ I (..\Core\Inc\cw32l010_gtim.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_adc.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_flash.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_i2c.h)(0x686B8EF1)
-F (.\Control\Src\sys_config_and_flash.c)(0x686BAF2C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\sys_config_and_flash.o --omf_browse .\objects\sys_config_and_flash.crf --depend .\objects\sys_config_and_flash.d)
+F (.\Control\Src\sys_config_and_flash.c)(0x686DD502)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\sys_config_and_flash.o --omf_browse .\objects\sys_config_and_flash.crf --depend .\objects\sys_config_and_flash.d)
 I (.\Control\Inc\sys_config_and_flash.h)(0x686B8EF1)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)
@@ -553,8 +553,8 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 I (.\Control\Inc\light.h)(0x686B8EF1)
 I (.\Control\Inc\myMath.h)(0x686BAB9B)
 I (.\User\Inc\adc.h)(0x686B8EF1)
-F (.\Control\Src\register.c)(0x686B8EF1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\register.o --omf_browse .\objects\register.crf --depend .\objects\register.d)
-I (.\Control\Inc\register.h)(0x686B8EF1)
+F (.\Control\Src\register.c)(0x686DDC96)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\register.o --omf_browse .\objects\register.crf --depend .\objects\register.d)
+I (.\Control\Inc\register.h)(0x686DD88B)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal_conf.h)(0x686B8EF1)
@@ -580,7 +580,7 @@ I (..\Core\Inc\cw32l010_gtim.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_adc.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_flash.h)(0x686B8EF1)
 I (..\Core\Inc\cw32l010_i2c.h)(0x686B8EF1)
-F (.\Control\Src\color2.c)(0x686DD1F0)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\color2.o --omf_browse .\objects\color2.crf --depend .\objects\color2.d)
+F (.\Control\Src\color2.c)(0x686DD8A7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Core\Inc -I .\User\Inc -I ..\Drivers\CW32L010_HAL_Driver\Inc -I .\Control\Inc-I.\RTE\_signal_gray-ID:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_-o .\objects\color2.o --omf_browse .\objects\color2.crf --depend .\objects\color2.d)
 I (.\Control\Inc\color.h)(0x686B8EF1)
 I (.\User\Inc\main.h)(0x686B8EF1)
 I (..\Drivers\CW32L010_HAL_Driver\Inc\cw32l010_hal.h)(0x686B8EF1)

@@ -2,7 +2,7 @@
  * @Author       : 蔡雅超 (ZIShen)
  * @LastEditors  : ZIShen
  * @Date         : 2025-07-07 17:10:09
- * @LastEditTime : 2025-07-09 10:35:38
+ * @LastEditTime : 2025-07-09 11:09:17
  * @Description  : 
  * Copyright (c) 2025 Author 蔡雅超 email: 2672632650@qq.com, All Rights Reserved.
  */
@@ -90,7 +90,7 @@ static const uint8_t iic_command_map[][2] = {
 static uint8_t iic_read_reg_idle_val[2] = {0, 1};
 static uint8_t iic_read_reg_study_val[2] = {0, 2};
 
-static KET_Typedef key_info = {0};
+static KET_Typedef key_info = {KEY_IDLE};
 static MACHINE_STATE machine_state = MACHINE_IDLE;
 
 
@@ -201,7 +201,7 @@ void loop(void)
         }
         if (find_flag)
         {
-            machine_state =  iic_command_map[pos][1];
+            machine_state =  (MACHINE_STATE)iic_command_map[pos][1];
         }
     }
 }

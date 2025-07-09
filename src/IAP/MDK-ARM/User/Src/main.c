@@ -59,12 +59,22 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 static void SystemClock_Config(void)
 {
-    SYSCTRL_HSI_Enable(SYSCTRL_HSIOSC_DIV6);
-    SYSCTRL_HSE_Enable(SYSCTRL_HSE_MODE_OSC, 32000000, SYSCTRL_HSE_DRIVER_LEVEL5, 0); // 开外部高速时钟，实际频率需要根据实际晶体频率重新配置
+    uint32_t hsi_calibration, hsi_calibration_h, hsi_calibration_l;
+    hsi_calibration_l = *(uint8_t *)(0x001007C0);
+    hsi_calibration_h = *(uint8_t *)(0x001007C1);
+    hsi_calibration = (hsi_calibration_h << 8) | hsi_calibration_l;
+    CW_SYSCTRL->HSI_f.TRIM = hsi_calibration; // 校准内部48M频率
+    
+    SYSCTRL_HSI_Enable(SYSCTRL_HSIOSC_DIV2);
+//    SYSCTRL_HSE_Enable(SYSCTRL_HSE_MODE_OSC, 32000000, SYSCTRL_HSE_DRIVER_LEVEL5, 0); // 开外部高速时钟，实际频率需要根据实际晶体频率重新配置
     SYSCTRL_SysClk_Switch(SYSCTRL_SYSCLKSRC_HSE);
-    InitTick(32000000);
-    SYSCTRL_SystemCoreClockUpdate(32000000);
+    InitTick(24000000);
+    SYSCTRL_SystemCoreClockUpdate(24000000);
 
     REGBITS_SET(CW_SYSCTRL->AHBEN, (0x5A5A0000 | bv1));
     REGBITS_SET(CW_SYSCTRL->AHBEN, (0x5A5A0000 | bv5));
+    
+//    FLASH_SetLatency(FLASH_Latency_2);                   //频率大于24M需要配置FlashWait=2
+    FLASH_SetLatency(FLASH_Latency_1);                    //频率小于24M需要配置FlashWait=1
+    
 }

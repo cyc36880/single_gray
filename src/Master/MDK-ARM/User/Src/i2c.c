@@ -26,7 +26,7 @@ void MAX_I2C_Init(void)
     HAL_I2c_MspInit();
 
     // I2C初始化
-    I2C_InitStruct.PCLK_Freq = 32000000;
+    I2C_InitStruct.PCLK_Freq = 24000000;
     I2C_InitStruct.I2C_SCL_Freq = 1000000;
     I2C_InitStruct.I2C_OwnSlaveAddr0 = I2C_SLAVEADDRESS;        // TEST ADDRESS0
     I2C_InitStruct.I2C_OwnSlaveAddr1 = I2C_SLAVEADDRESS_OTHER1[i2c_slaveaddr_pos]; // TEST ADDRESS1
@@ -83,7 +83,6 @@ static void HAL_I2c_MspInit(void)
 
 void I2C1_IRQHandlerCallback(void)
 {
-    static uint8_t rev_count = 0;
     static uint8_t send_count = 0;
 
     switch (CW_I2C1->STAT)
@@ -96,9 +95,11 @@ void I2C1_IRQHandlerCallback(void)
         break;
     case 0x80: // 从机已接收到1字节数据，ACK已回复
     case 0x90: // 从机已接收到1字节广播数据，ACK已回复
-        rev_count++;
-        iic_write_reg.reg[0] = CW_I2C1->DR;
-        iic_write_reg.changle_flag = 1;
+        if (iic_write_reg.reg)
+        {
+            iic_write_reg.reg[0] = CW_I2C1->DR;
+            iic_write_reg.changle_flag = 1;
+        }
         break;
     case 0x88: // 从机已接收到1字节数据，NACK已回应
     case 0x98: // 从机已接收到1字节广播数据，NACK已回应
@@ -107,7 +108,6 @@ void I2C1_IRQHandlerCallback(void)
         CW_I2C1->CR_f.SI = 0;
         return;
     case 0xA0: // 重复START信号或者STOP信号已收到
-        rev_count = 0;
         send_count = 0;
         break;
 
@@ -115,11 +115,19 @@ void I2C1_IRQHandlerCallback(void)
     case 0xA8: // 接收到SLA+R,ACK已回应
     case 0xB0: // 主机丢失仲裁后被转从机并被SLA+R寻址，ACK已回应
         send_count = 0;
-        CW_I2C1->DR = iic_read_reg.reg[send_count++];
+        if (iic_read_reg.reg)
+            CW_I2C1->DR = iic_read_reg.reg[send_count++];
+        else
+            CW_I2C1->DR = 0x00; 
         break;
     case 0xB8: // 从机已发送1字节数据，ACK已收到
         if (send_count < iic_read_reg.size)
-            CW_I2C1->DR = iic_read_reg.reg[send_count++];
+        {
+            if (iic_read_reg.reg)
+                CW_I2C1->DR = iic_read_reg.reg[send_count++];
+            else
+                CW_I2C1->DR = 0x00;
+        }
         else
             CW_I2C1->DR = 0x00; // 停止响应ACK
         break;
