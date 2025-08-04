@@ -267,7 +267,7 @@ int16_t sys_config_info_init(void)
             enum SYSCONF_MEM_LIST item = (enum SYSCONF_MEM_LIST)i;
             size_t data_size = get_sys_config_info_data_size(item);
 
-            write_data_to_flash(get_sys_config_addr_offset(item), &data_size, get_sys_config_info_data_size(item)); // 重刷 flash
+            write_data_to_flash(get_sys_config_addr_offset(item), &data_size,sizeof(data_size)); // 重刷 flash
             write_data_to_flash(get_sys_config_data_offset(item), get_sys_conf_data(item), data_size); // 重刷 flash
         }
         flash_sync();

@@ -3,15 +3,15 @@
         {
             "name": "signal_gray",
             "includePath": [
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Core\\Inc",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\User\\Inc",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Drivers\\CW32L010_HAL_Driver\\Inc",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\Control\\Inc",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Core\\Src",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\Drivers\\CW32L010_HAL_Driver\\Src",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\User\\Src",
-                "d:\\Desktop\\gray_t\\single_gray\\src\\Master\\MDK-ARM\\Control\\Src"
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\Core\\Inc",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\MDK-ARM\\User\\Inc",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\Drivers\\CW32L010_HAL_Driver\\Inc",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\MDK-ARM\\Control\\Inc",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\MDK-ARM",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\Core\\Src",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\Drivers\\CW32L010_HAL_Driver\\Src",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\MDK-ARM\\User\\Src",
+                "d:\\Users\\zishen\\Desktop\\gray\\single_gray\\src\\Master\\MDK-ARM\\Control\\Src"
             ],
             "defines": [
                 "__alignof__(x)=",
